@@ -7,7 +7,7 @@ export default class NewsApiService {
   }
 
   createRequest() {
-    const KEY = '32681971-7c4dedd5870704d3ef280ea2e';
+    const KEY = '32967736-6b14242df9cb5ce4a6ef6f13a';
     const MAIN_URL = `https://pixabay.com/api/`;
 
     return `${MAIN_URL}?key=${KEY}&q=${this.userRequest}&image_type=photo&orientation=horizontal&safesearch=true&per_page=40&page=${this.page}`;
